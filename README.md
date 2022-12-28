@@ -2,7 +2,7 @@
 
 Wrapper for Mermaid (https://mermaid.js.org).
 
-Tiddlywiki website/notebook including the plugin: http://efurlanm.github.io/mermaid-tw5 . You can install the plugin by navigating to the site and dragging the link to your TiddlyWiki.
+TiddlyWiki website/notebook including the plugin: http://efurlanm.github.io/mermaid-tw5 . You can install the plugin by navigating to the site and dragging the link to your TiddlyWiki.
 
 I'm not the author of the plugin, I just got what I was already ready, and updated the files to the latest version. All credits are from the original authors:
 
@@ -15,7 +15,7 @@ I'm not the author of the plugin, I just got what I was already ready, and updat
 
 As I didn't make the plugin, I have no idea how to eliminate issues. Please contact the original authors.
 
-The plugin will add 0.9 MB to the empty TW 5.2.5 file size (2.3 MB), for a total of 3.2 MB.
+The plugin will add 0.9 MB to the empty TiddlyWiki 5.2.5 file size (2.3 MB), for a total of 3.2 MB.
 
 
 # About TiddlyWiki
