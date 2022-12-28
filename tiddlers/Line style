@@ -1,0 +1,14 @@
+%%{init: {"theme": "neutral"}}%%
+graph LR
+    A -->|v| B{B}
+    B -->|v| C[C]
+    B -->|x| Z[E]
+    C --> D{D}:::FixFont
+
+    classDef label stroke:red,stroke-width:4px,background:gray
+    classDef node stroke:blue,stroke-width:4px
+    classDef FixFont font-size:10px,color:red
+    linkStyle 0 fill:none,stroke-width:1px,stroke:blue,color:red
+    linkStyle 1 fill:none,stroke-width:2px,stroke:green
+    linkStyle 2 fill:none,stroke-width:3px,stroke:yellow
+    linkStyle 3 fill:none,stroke-width:4px,stroke:pink

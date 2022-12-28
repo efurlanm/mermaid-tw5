@@ -1,0 +1,7 @@
+%%{init: {"theme": "neutral"}}%%
+graph
+  linkStyle default interpolate basis
+  A --> B
+  B --> C
+  C --> A
+  D --> C

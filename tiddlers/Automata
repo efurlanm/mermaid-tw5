@@ -1,0 +1,17 @@
+%%{init: {'theme': 'neutral'}}%%
+graph LR
+  DF((DF)) -->|"SS(B)"| E((E))
+  E((E))-->|0/0| C((C))
+  A((A))--1/0-->B((B))
+  E((E))--1/1-->DF((DF))
+  A((A))--0/0-->C((C))
+  C((C))--0/0-->C((C))
+  DF((DF))--1/0-->A((A))
+  B((B))--0/0-->C((C))
+  B((B))--1/0-->A((A))
+  C((C))--1/0-->DF((DF))
+
+  linkStyle 3 stroke:green,stroke-width:1px,fill:none
+  style DF stroke:green,stroke-width:4px
+  classDef term stroke:blue,stroke-width:4px
+  class C term

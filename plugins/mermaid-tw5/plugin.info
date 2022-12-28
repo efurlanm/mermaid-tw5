@@ -1,0 +1,14 @@
+{
+    "author": "",
+    "core-version": "",
+    "created": "",
+    "dependents": "",
+    "description": "Wrapper for mermaid.js",
+    "list": "readme usage example license",
+    "modified": "",
+    "name": "mermaid",
+    "plugin-type": "plugin",
+    "tags": "",
+    "title": "$:/plugins/orange/mermaid-tw5",
+    "version": "0.3.7.1"
+}

@@ -1,0 +1,27 @@
+graph 
+ linkStyle default interpolate basis
+ subgraph  
+  A[gunung]-->B[NOUN]
+  C[Krakatau]--> D[NOUN]
+  E[Yang]-->F[PRON]
+  G[Pernah]-->H[ADV]
+  I[meletus] --> J[VERB]
+  K[mulai]-->L[VERB]
+  M[terbatuk-batuk] --> N[VERB]
+ end
+ subgraph  
+  B --> O[FN]
+  D --> O
+  F --> O
+  J --> O
+  L --> P[FV]
+  N --> P
+ end
+ subgraph   
+  O --> Q[Subject]
+  P --> R[Predicate]
+ end
+ subgraph   
+  Q-->S[clause]
+  R-->S
+ end

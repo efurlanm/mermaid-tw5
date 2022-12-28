@@ -1,0 +1,12 @@
+%%{init: {'theme': 'neutral'}}%%
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving  %% this is a comment
+    Moving --> Still
+    Moving --> Crash: transition description
+    Crash --> [*]
+
+    Moving: This is a state description
+    direction LR

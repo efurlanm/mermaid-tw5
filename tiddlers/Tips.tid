@@ -1,0 +1,14 @@
+created: 20211013183106145
+modified: 20220509145934785
+tags: 
+title: Tips
+
+! My personal tips and notes
+
+* The sources are in the shadow tiddlers ``$:/plugins/orange/mermaid-tw5/ ... ``. There is a list of them in the plugin's tiddler in the contents tab, and they can also be accessed in the menu tab More > Shadows
+* Inside the mermaid strings it is not possible to use WikiText TW5 formatting, but it is possible to use unicode characters (see http://www.madeintext.com : 𝗕𝗼𝗹𝗱, 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘, 𝘐𝘵𝘢𝘭𝘪𝘤, U̲n̲d̲e̲r̲l̲i̲n̲e, etc), including symbols (eg &Delta; `&Delta;`,  	&Sigma; `&Sigma;`, &Omega; `&Omega;`,	&delta;	`&delta;`, etc). The characters (eg `ℓ₁`) can be copied and pasted, or the html entity (eg `&ell;`, etc) can be used (note: dec  `&#8467;` or hex does not work)
+* To delimit the text field it is better to use the apostrophe character (eg `text=' '`) instead of quotation marks, so you don't have problems with strings in memaid syntax
+* In mermaid syntax it's better to delimit all strings with quotes, so you don't have problems with special characters
+* In addition to the documentation on the Mermaid's website, it's often necessary to search Google to find the desired solutions
+* As in other TW5 cases, perhaps the best way to use it is to create mermaid-specific tiddlers of type `text/vnd.tiddlywiki.mermaid` ("mermaid tiddler"), and prefix the mermaid tiddler title with `$:/_` so that [[does not appear in searches and lists|https://tiddlywiki.com/static/SystemTiddlers.html]], and then use [[transclusion|https://tiddlywiki.com/static/Transclusion%2520in%2520WikiText.html]] (eg `{{Graph}}`) to insert it into new tiddlers. In mermaid tiddler we add a "source" field to place the reference
+* According to this [[post|https://github.com/mermaid-js/mermaid/issues/270#issuecomment-373892130]], the flowchart layout is powered by https://github.com/dagrejs/dagre-d3
