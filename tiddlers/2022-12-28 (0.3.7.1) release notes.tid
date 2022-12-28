@@ -1,5 +1,5 @@
 created: 20221228191026616
-modified: 20221228211704883
+modified: 20221228215945478
 tags: 
 title: 2022-12-28 (0.3.7.1) release notes
 type: text/vnd.tiddlywiki
@@ -49,10 +49,16 @@ mermaidAPI = require("$:/plugins/orange/mermaid-tw5/mermaid.min.js")
 
 and now mermaid-tw5 runs on "TiddlyWiki on Node.js" apparently without problems. I have no idea if there are any side effects from this change.
 
-To run on "TiddlyWiki on Node.js":
+Also, I updated the "publisher" and "name", in "$:/plugins/publisher/name". The publisher is now "orange" and the name is "memaid-tw5".
+
+To run mermaid-tw5 on "TiddlyWiki on Node.js":
 
 * clone the sources: `git clone https://github.com/efurlanm/mermaid-tw5`
 
-* go to the root directory of wiki
+* go to the root directory of wiki: `cd mermaid-tw5`
 
 * start the server: `TIDDLYWIKI_PLUGIN_PATH=./plugins tiddlywiki --listen`
+
+* open the browser at the address that appears in the command above
+
+
