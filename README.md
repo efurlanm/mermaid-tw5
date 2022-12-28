@@ -2,7 +2,7 @@
 
 Wrapper for Mermaid (https://mermaid.js.org).
 
-TiddlyWiki website/notebook including the plugin: http://efurlanm.github.io/mermaid-tw5 . You can install the plugin by navigating to the site and dragging the link to your TiddlyWiki.
+TiddlyWiki website/notebook including the plugin: http://efurlanm.github.io/mermaid-tw5 . You can install the plugin by navigating to the site and dragging the plugin link to your TiddlyWiki.
 
 I'm not the author of the plugin, I just got what I was already ready, and updated the files to the latest version. All credits are from the original authors:
 
