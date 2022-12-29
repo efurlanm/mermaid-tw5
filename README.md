@@ -27,4 +27,4 @@ TiddlyWiki (http://tiddlywiki.com/) in single-file configuration typically bundl
 
 * In addition to this plugin, there is also another one that I updated: http://efurlanm.github.io/katex-tw5 .
 
-* Just for fun I made a bundle containing an empty TiddlyWiki and the Mermaid and KaTeX Small plugins, and tw5-uglify (https://github.com/flibbles/tw5-uglify) was used to reduce the size, which came in at 2.8MB (the default TiddlyWiki is 2.3MB): http://efurlanm.github.io/empty_orange_5.2.5.html . Use the "Save changes" button to download a copy.
+* Just for fun I made a bundle containing an empty TiddlyWiki and the Mermaid and KaTeX Small plugins, and tw5-uglify (https://github.com/flibbles/tw5-uglify) was used to reduce the size, which came in at 2.8MB (the default TiddlyWiki is 2.3MB). The size got smaller than the default Mermaid plus an empty Tiddlywiki: 3.2 MB. Use the "Save changes" button to download a copy: http://efurlanm.github.io/empty_orange_5.2.5.html
