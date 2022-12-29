@@ -1,5 +1,0 @@
-stateDiagram
-  I: Vditor
-  [*] --> I
-  I --> I: love
-  I --> I: hate

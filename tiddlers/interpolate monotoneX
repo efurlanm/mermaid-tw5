@@ -1,7 +1,0 @@
-%%{init: {"theme": "neutral"}}%%
-graph
-  linkStyle default interpolate monotoneX
-  A --> B
-  B --> C
-  C --> A
-  D --> C

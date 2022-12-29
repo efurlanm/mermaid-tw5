@@ -1,4 +1,0 @@
-graph LR
-    DataStore[Database] -->|input| Process((System)) -->|output| Entity[Customer]
-    style DataStore stroke-dasharray: 88.5 44
-

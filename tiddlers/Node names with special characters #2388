@@ -1,4 +1,0 @@
-flowchart LR
-  subgraph foo
-    foo_default
-  end
