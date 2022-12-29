@@ -20,3 +20,11 @@ As I didn't make the plugin, I have no idea how to eliminate issues. Please cont
 # About TiddlyWiki
 
 TiddlyWiki (http://tiddlywiki.com/) in single-file configuration typically bundles everything into a single HTML file: the data, images, text, plugins, JavaScript, CSS, and HTML that make up TiddlyWiki itself (is capable of saving changes to itself). This lack of dependencies is usually very convenient: it means that it increases the chances of still working in the future, and allows you to download a single HTML file from the Internet (using the `Save Changes' button) and send this single file by email or WhatsApp (provided that all dependencies are within). It will work anywhere, including your smartphone, as it does not require an external reader or the installation of any additional software. It can even be edited and used to add more material anywhere using the web browser as long as everything required is included within the HTML single file.
+
+
+
+# Other infos
+
+* In addition to this plugin, there is also another one that I updated: http://efurlanm.github.io/katex-tw5 .
+
+* Just for fun I made a bundle containing an empty TiddlyWiki and the Mermaid and KaTeX Small plugins, and [ext[tw5-uglify|https://github.com/flibbles/tw5-uglify]] was used to reduce the size, which came in at 2.8MB (the default TiddlyWiki is 2.3MB): http://efurlanm.github.io/empty_orange_5.2.5.html . Use the "Save changes" button to download a copy.
