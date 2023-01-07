@@ -1,0 +1,31 @@
+title: $:/plugins/orange/mermaid-tw5/example
+
+See full examples on the website http://mermaid-js.github.io/mermaid
+
+Notation
+
+```
+%%{init: {'theme': 'default'}}%%
+graph LR
+    A[a node with text]-->B(a node with rounded corners)
+    A--no links---C((a circle))
+    B-->D{a diamond}
+    C==>|arrow and text|D
+    C-. back to.->A
+```
+
+Results
+
+<$mermaid text="
+%%{init: {'theme': 'default'}}%%
+  graph LR
+    A[a node with text]-->B(a node with rounded corners)
+    A--no links---C((a circle))
+    B-->D{a diamond}
+    C==>|arrow and text|D
+    C-. back to.->A
+"></$mermaid>
+
+More advanced usage is possible if you use the mermaid parser rather than the ``<$mermaid>``. Below are two more examples from the [[mermaid.js website|http://mermaid-js.github.io/mermaid]]
+
+Built-in themes: 'default', 'base', 'forest', 'dark', 'neutral'

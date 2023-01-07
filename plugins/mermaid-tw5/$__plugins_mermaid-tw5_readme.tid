@@ -1,0 +1,22 @@
+title: $:/plugins/orange/mermaid-tw5/readme
+
+This is a TiddlyWiki plugin for using [[mermaid.js|https://github.com/mermaid-js/mermaid]].  It is completely self-contained, and doesn't need an Internet connection in order to work. It works both in the browser and under Node.js. It is currently based on [[mermaid.js 9.3.0|https://github.com/mermaid-js/mermaid/releases/tag/v9.3.0]]
+
+
+!Installation
+
+You can drag the plugin link into your TiddlyWiki to install, from http://efurlanm.github.io/mermaid-tw5
+
+
+!Info
+
+The Mermaid TW5 Plugin is based on:
+
+* http://github.com/gt6796c/mermaid-tw5
+* http://github.com/jasonmhoule/tw5-mermaid
+* http://github.com/cedarvera/mermaid-tw5
+* http://github.com/jceb/mermaid-tw5
+* https://github.com/mermaid-js/mermaid
+* and others
+
+There is a [[post|https://talk.tiddlywiki.org/t/mermaid-tw5-plugin-update-to-mermaid-8-13-2/1117]] on the TiddlyWiki 5 Discourse discussion group for end users, regarding this plugin.

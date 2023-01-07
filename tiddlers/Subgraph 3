@@ -1,0 +1,13 @@
+graph TB
+subgraph   %% put 3 spaces here
+direction RL
+A-->|1|A
+end
+subgraph   
+direction LR
+A-->|2|A
+A-->B
+end
+
+%% color doen's work
+linkStyle 1 stroke:#ff3,stroke-width:4px,color:red

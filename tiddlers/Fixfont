@@ -1,0 +1,4 @@
+graph LR;
+  AAA[Sample<br>text]:::FixFont
+
+  classDef FixFont font-size:16px

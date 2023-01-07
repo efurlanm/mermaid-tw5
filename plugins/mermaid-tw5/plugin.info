@@ -1,0 +1,14 @@
+{
+    "author": "",
+    "core-version": "",
+    "created": "",
+    "dependents": "",
+    "description": "wrapper for the Mermaid diagramming library",
+    "list": "readme usage example license",
+    "modified": "",
+    "name": "Mermaid",
+    "plugin-type": "plugin",
+    "tags": "",
+    "title": "$:/plugins/orange/mermaid-tw5",
+    "version": "0.3.7.1"
+}

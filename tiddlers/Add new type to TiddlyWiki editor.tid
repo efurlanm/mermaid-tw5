@@ -1,0 +1,27 @@
+created: 20211011015638051
+modified: 20220509145520556
+tags: 
+title: Add new type to TiddlyWiki editor
+
+~TiddlyWiki editors shows content type selector. It lets you set tiddler type to an image like image/png, or a text type like text/x-markdown. In our case, we want the type text/vnd.tiddlywiki.mermaid which will only contain Mermaid commands.
+
+To add a new type which is not present in the core like video/mp4 or image/webp:
+
+* Create a new tiddler
+* Name it $:/language/Docs/Types/text/vnd.tiddlywiki.mermaid
+* Set the fields of the tiddler:
+** description: Mermaid
+** group: Text
+** name: text/vnd.tiddlywiki.mermaid
+** group-sort: 3
+
+Setting group-sort to 3 will make the group appear at the bottom.
+
+The tiddler should look like this (click to open, and edit to see what's inside):
+
+$:/language/Docs/Types/text/vnd.tiddlywiki.mermaid
+
+You can also drag this link into your wiki to import.
+
+Reference: 
+https://groups.google.com/g/tiddlywiki/c/l_uxgh_tsDU

@@ -1,0 +1,17 @@
+title: $:/plugins/orange/mermaid-tw5/usage
+
+!mermaid
+
+Use the ``<$mermaid>`` widget and place the mermaid commands within it. Any of the options that can be specified
+in the ``.render()`` options variable can be specified as JSON-encoded values in attributes of the same name on the widgets.
+The values of the attributes can also be the title of Data Tiddlers and the values will be used from the referenced Tiddler.
+You can set the type of a Tiddler to text/vnd.tiddlywiki.mermaid and use the native commands directly in the Tiddler body. You can
+add fields that are the names below prefixed with 'mermaid'. So "theme" becomes "mermaid-theme"
+
+!Troubleshooting
+
+*When in doubt, please create a test case by creating a tiddler that has ``type=text/vnd.tiddlywiki.mermaid`` and contains ''only'' mermaid commands, (no TW markup or other contents)
+*TW treats any text inside of a Tiddler designated as a "normal Twiddler" (meaning type=text/vnd.tiddlywiki) as Tiddler Markup. Full stop. I've put into place some "unparsing" but it is twitchy difficult to maintain and buggy. So if you have cool, advanced uses of mermaid that fail in the ``<$mermaid>`` tag but work on with the type setup as mermaid, then that is probably the best you're going to get
+*As much as I'd like to make this not be this way, it just isn't possible with my skills/understanding
+*JSON encoding only allows double-quotes ``"`` as string delimiters
+*JSON encoding requires double-quotes around single string values
