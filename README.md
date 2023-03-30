@@ -1,5 +1,7 @@
 # mermaid-tw5
 
+Note: This plugin is no longer maintained due to a significant change (ESM) in Mermaid 10 which makes it incompatible with the plugin.
+
 Wrapper for Mermaid (https://mermaid.js.org).
 
 TiddlyWiki website/notebook including the plugin: http://efurlanm.github.io/mermaid-tw5 . You can install the plugin by navigating to the site and dragging the plugin link to your TiddlyWiki.
