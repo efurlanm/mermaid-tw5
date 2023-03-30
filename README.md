@@ -1,5 +1,7 @@
 # mermaid-tw5
 
+*Last edited 2023-03-30*
+
 Note: This plugin is no longer maintained due to a significant change (ESM) in Mermaid 10 which makes it incompatible with the plugin.
 
 Wrapper for Mermaid (https://mermaid.js.org).
