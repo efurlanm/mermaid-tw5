@@ -1,10 +1,10 @@
 # mermaid-tw5
 
-*Last edited 2023-03-30*
+*Last edited 2023-04-27*
 
-Note: This plugin is no longer maintained due to a significant change (ESM) in Mermaid 10 which makes it incompatible with the plugin.
+Note: This plugin is no longer maintained due to a significant change (ESM) in Mermaid 10 that makes it incompatible with the plugin. Furthermore, from Mermaid 9.4.0 onwards the plugin tripled in size, becoming larger than the size of the empty TiddlyWiki single html file, becoming a huge overhead.
 
-Wrapper for Mermaid (https://mermaid.js.org).
+The mermaid-tw5 plugin is a wrapper for Mermaid (https://mermaid.js.org).
 
 TiddlyWiki website/notebook including the plugin: http://efurlanm.github.io/mermaid-tw5 . You can install the plugin by navigating to the site and dragging the plugin link to your TiddlyWiki.
 
