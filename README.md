@@ -1,8 +1,8 @@
 # mermaid-tw5
 
-*Last edited 2023-04-27*
+*Last edited 2023-05-04*
 
-Note: This plugin is no longer maintained due to a significant change (ESM) in Mermaid 10 that makes it incompatible with the plugin. Furthermore, from Mermaid 9.4.0 onwards the plugin tripled in size, becoming larger than the size of the empty TiddlyWiki single html file, becoming a huge overhead.
+>Note: This plugin is no longer maintained due to a significant change (ESM) in Mermaid 10 that makes it incompatible with the plugin. Furthermore, from Mermaid 9.4.0 onwards the plugin tripled in size, becoming larger than the size of the empty TiddlyWiki single HTML file, becoming a huge overhead.
 
 The mermaid-tw5 plugin is a wrapper for Mermaid (https://mermaid.js.org).
 
@@ -23,7 +23,7 @@ As I didn't make the plugin, I have no idea how to eliminate issues. Please cont
 
 # About TiddlyWiki
 
-TiddlyWiki (http://tiddlywiki.com/) in single-file configuration typically bundles everything into a single HTML file: the data, images, text, plugins, JavaScript, CSS, and HTML that make up TiddlyWiki itself (is capable of saving changes to itself). This lack of dependencies is usually very convenient: it means that it increases the chances of still working in the future, and allows you to download a single HTML file from the Internet (using the `Save Changes' button) and send this single file by email or WhatsApp (provided that all dependencies are within). It will work anywhere, including your smartphone, as it does not require an external reader or the installation of any additional software. It can even be edited and used to add more material anywhere using the web browser as long as everything required is included within the HTML single file.
+TiddlyWiki (http://tiddlywiki.com/) in single-file configuration typically bundles everything into a single HTML file: the data, images, text, plugins, JavaScript, CSS, and HTML that make up TiddlyWiki itself (is capable of saving changes to itself). This lack of dependencies is usually very convenient: it means that it increases the chances of still working in the future, and allows you to download a single HTML file from the Internet (using the "Save Changes" button) and send this single file by email or WhatsApp (provided that all dependencies are within). It will work anywhere, including your smartphone, as it does not require an external reader or the installation of any additional software. It can even be edited and used to add more material anywhere using the web browser as long as everything required is included within the HTML single file.
 
 
 
@@ -31,4 +31,4 @@ TiddlyWiki (http://tiddlywiki.com/) in single-file configuration typically bundl
 
 * In addition to this plugin, there is also another one that I updated: http://efurlanm.github.io/katex-tw5 .
 
-* Just for fun I made a bundle containing an empty TiddlyWiki and the Mermaid and KaTeX Small plugins, and tw5-uglify (https://github.com/flibbles/tw5-uglify) was used to reduce the size, which came in at 2.8MB (the default TiddlyWiki is 2.3MB). The size got smaller than the default Mermaid plus an empty TiddlyWiki: 3.2 MB. Use the "Save changes" button to download a copy: http://efurlanm.github.io/empty_orange_5.2.5.html
+* Just for fun I made a bundle containing an empty TiddlyWiki and the Mermaid and KaTeX Small plugins, and tw5-uglify (https://github.com/flibbles/tw5-uglify) was used to reduce the size, which came in at 2.8 MB (the default TiddlyWiki is 2.3 MB). The size got smaller than the default Mermaid plus an empty TiddlyWiki: 3.2 MB. Use the "Save changes" button to download a copy: http://efurlanm.github.io/empty_orange_5.2.5.html
