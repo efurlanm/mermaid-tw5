@@ -18,9 +18,3 @@ I'm not the author of the plugin, I just got what I was already ready, and updat
 * and others
 
 As I didn't make the plugin, I have no idea how to eliminate issues. Please contact the original authors.
-
-
-
-# About TiddlyWiki
-
-TiddlyWiki (http://tiddlywiki.com/) in single-file configuration typically bundles everything into a single HTML file: the data, images, text, plugins, JavaScript, CSS, and HTML that make up TiddlyWiki itself (is capable of saving changes to itself). This lack of dependencies is usually very convenient: it means that it increases the chances of still working in the future, and allows you to download a single HTML file from the Internet (using the "Save Changes" button) and send this single file by email or WhatsApp (provided that all dependencies are within). It will work anywhere, including your smartphone, as it does not require an external reader or the installation of any additional software. It can even be edited and used to add more material anywhere using the web browser as long as everything required is included within the HTML single file.
