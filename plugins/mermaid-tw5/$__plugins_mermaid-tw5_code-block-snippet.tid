@@ -1,0 +1,8 @@
+caption: mermaid
+tags: $:/tags/TextEditor/Snippet
+title: $:/plugins/orange/mermaid-tw5/code-block-snippet
+
+$$$text/vnd.tiddlywiki.mermaid
+graph TD
+    A --> B
+$$$
