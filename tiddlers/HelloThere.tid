@@ -1,12 +1,16 @@
 created: 20211010232934083
-modified: 20221229141014635
+modified: 20240317191354694
 title: HelloThere
 type: text/vnd.tiddlywiki
 
 Welcome to my TiddlyWiki notebook. I'm not the author of the plugin mermaid-tw5, I just got what I was already ready, and updated the mermaid.js to the latest version. All credits are from the original authors.
 
-The plugin adds 0.9&nbsp;MB to the TiddlyWiki 5.2.5 empty file size (2.3&nbsp;MB), for a total of 3.2&nbsp;MB.
+The plugin adds 0.9&nbsp;MB to the TiddlyWiki 5.3.3 empty file size (2.4&nbsp;MB), for a total of 3.3&nbsp;MB.
 
+;2024-03-17 (0.3.7.2)
+:Add "About $$$ usage", by linonetwo (thanks)
+:Add "Updates to support click interactions and pan and zoom", by fkmiec (thanks)
+:Update TiddlyWiki to 5.3.3
 ;2022-12-28 (0.3.7.1)
 :Small changes to run on "TiddlyWiki for Node.js" (see [[release notes|2022-12-28 (0.3.7.1) release notes]])
 ;2022-12-21 (0.3.7)
@@ -58,7 +62,20 @@ To use, place the `<$mermaid>` widget and then use the mermaid syntax within the
     D --> C
 '></$mermaid>
 
-An alternative method is to make the tiddler type to be ``text/vnd.tiddlywiki.mermaid``, and the syntax is (in this case, the TW5 syntax is not accepted):
+An alternative method (pointed out by linonetwo) is to use ``$$$text/vnd.tiddlywiki.mermaid`` and ``$$$`` as delimiters, as in:
+
+```
+$$$text/vnd.tiddlywiki.mermaid
+graph TD
+    A --> B
+$$$
+```
+$$$text/vnd.tiddlywiki.mermaid
+graph TD
+    A --> B
+$$$
+
+Other alternative method is to make the tiddler type to be ``text/vnd.tiddlywiki.mermaid``, and the syntax is (in this case, the TW5 syntax is not accepted):
 
 ```
 graph

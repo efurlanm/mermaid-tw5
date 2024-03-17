@@ -1,0 +1,10 @@
+created: 20240317181302465
+modified: 20240317181333484
+tags: 
+title: code-block-snippet
+type: text/vnd.tiddlywiki
+
+$$$text/vnd.tiddlywiki.mermaid
+graph TD
+    A --> B
+$$$

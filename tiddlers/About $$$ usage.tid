@@ -1,0 +1,16 @@
+created: 20240317181042370
+modified: 20240317181259094
+tags: 
+title: About $$$ usage
+type: text/vnd.tiddlywiki
+
+$$$text/vnd.tiddlywiki.mermaid
+graph TD
+    ReachGoal --> GetKey
+    ReachGoal --> OpenDoor
+    ReachGoal --> GoThroughDoor
+    GetKey --> BreakBox
+    GetKey --> PickUpKey
+    OpenDoor --> ApproachDoor
+    OpenDoor --> UseKey
+$$$
