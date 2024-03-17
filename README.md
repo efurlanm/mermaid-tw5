@@ -1,6 +1,6 @@
 # mermaid-tw5
 
-*Last edited: 2023-08-14*
+*Last edited: 2024-03-17*
 
 The mermaid-tw5 plugin is a wrapper for Mermaid (<https://mermaid.js.org>).
 
@@ -17,6 +17,6 @@ I'm not the author of the plugin, I just got what I was already ready, and updat
 
 Notes:
 
-1. The Mermaid 9.3.0 version currently used in the plugin is 0.9 MB in size and works fine.
-2. mermaid.js version 10.3.0 is 2.8 MB in size, while TiddlyWiki 5.3.0 is 2.3 MB, which makes mermaid a huge overhead.
+1. The mermaid.min.js 9.3.0 version currently used in the plugin is 0.9 MB in size and works well.
+2. The new version 10.9.0 of mermaid.min.js is 3.2 MB in size, while the empty TiddlyWiki 5.3.3 is 2.4 MB, which makes the new version of mermaid a huge overhead.
 3. There is a [thread in the mermaid repository](https://github.com/mermaid-js/mermaid/issues/4616) suggesting a lite version, which would be welcome, and could eventually solve the overhead issue.
