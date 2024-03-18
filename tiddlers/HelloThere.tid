@@ -1,32 +1,32 @@
 created: 20211010232934083
-modified: 20240317191354694
+modified: 20240318141239118
 title: HelloThere
 type: text/vnd.tiddlywiki
 
 Welcome to my TiddlyWiki notebook. I'm not the author of the plugin mermaid-tw5, I just got what I was already ready, and updated the mermaid.js to the latest version. All credits are from the original authors.
 
-The plugin adds 0.9&nbsp;MB to the TiddlyWiki 5.3.3 empty file size (2.4&nbsp;MB), for a total of 3.3&nbsp;MB.
+The plugin adds 1.1&nbsp;MB to the TiddlyWiki 5.3.3 empty file size (2.4&nbsp;MB), for a total of 3.6&nbsp;MB.
 
-;2024-03-17 (0.3.7.2)
-:Add "About $$$ usage", by linonetwo (thanks)
-:Add "Updates to support click interactions and pan and zoom", by fkmiec (thanks)
+;2024-03-18 (0.3.8)
+:Add "About $$$ usage", by [[linonetwo|https://github.com/efurlanm/mermaid-tw5/pull/8]] (thanks)
+:Add "Updates to support click interactions and pan and zoom", by [[fkmiec|https://github.com/efurlanm/mermaid-tw5/pull/5]] (thanks)
 :Update TiddlyWiki to 5.3.3
 ;2022-12-28 (0.3.7.1)
 :Small changes to run on "TiddlyWiki for Node.js" (see [[release notes|2022-12-28 (0.3.7.1) release notes]])
 ;2022-12-21 (0.3.7)
-:Update mermaid to [[9.3.0|https://github.com/mermaid-js/mermaid/releases]] - please check the Release Notes in the mermaid repository to see what has changed
+:Update mermaid to [[9.3.0|https://github.com/mermaid-js/mermaid/releases/tag/v9.3.0]] - please check the Release Notes in the mermaid repository to see what has changed
 :Update TiddlyWiki to 5.2.5
 ;2022-05-30 (0.3.6)
-:Update mermaid to [[9.1.1|https://github.com/mermaid-js/mermaid/releases]] - please check the Release Notes in the mermaid repository to see what has changed
+:Update mermaid to [[9.1.1|https://github.com/mermaid-js/mermaid/releases/tag/9.1.1]] - please check the Release Notes in the mermaid repository to see what has changed
 ;2022-05-08 (0.3.5)
 :External rocklib library is no longer needed
 ;2022-05-07 (0.3.4)
-:Update mermaid to 9.0.1
+:Update mermaid to [[9.0.1|https://github.com/mermaid-js/mermaid/releases/tag/9.0.1]]
 :Update TiddlyWiki to 5.2.2
 ;2021-10-11 (0.3.3)
 :Cleanup, tests, minor modifications
 ;2021-10-10 (0.3.2)
-:Update mermaid to 8.13.2
+:Update mermaid to [[8.13.2|https://github.com/mermaid-js/mermaid/releases/tag/8.13.2]]
 
 The Mermaid TW5 Plug-in is based on:
 

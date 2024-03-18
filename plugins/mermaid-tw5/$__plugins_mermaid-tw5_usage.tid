@@ -7,7 +7,7 @@ The values of the attributes can also be the title of Data Tiddlers and the valu
 You can set the type of a Tiddler to text/vnd.tiddlywiki.mermaid and use the native commands directly in the Tiddler body.
 You can add fields that are the names below prefixed with 'mermaid'. So "theme" becomes "mermaid-theme"
 
-2024-03-17  (by linonetwo)
+2024-03-17 (by [[linonetwo|https://github.com/efurlanm/mermaid-tw5/pull/8]])
 
 You can also use ``$$$text/vnd.tiddlywiki.mermaid`` and ``$$$`` as delimiters, as in:
 
@@ -17,6 +17,10 @@ graph TD
     A --> B
 $$$
 ```
+
+2024-03-17 (by [[fkmiec|https://github.com/efurlanm/mermaid-tw5/pull/5]])
+
+Added the d3.v6.min.js library that allows click interactions as well as pan and zoom functionality.
 
 
 !Troubleshooting

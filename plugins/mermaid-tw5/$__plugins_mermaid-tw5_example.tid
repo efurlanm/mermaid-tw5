@@ -4,7 +4,7 @@ See full examples on the website http://mermaid-js.github.io/mermaid
 
 Built-in themes: 'default', 'base', 'forest', 'dark', 'neutral'
 
-Notation
+Notation:
 
 ```
 %%{init: {'theme': 'default'}}%%
@@ -27,6 +27,8 @@ Results
     C==>|arrow and text|D
     C-. back to.->A
 "></$mermaid>
+
+Notation using another theme:
 
 ```
 %%{init: {'theme': 'forest'}}%%

@@ -1,0 +1,8 @@
+flowchart LR
+    A-->B
+    B-->C
+    C-->D
+    click A "#Gitgraph Forest Theme" "Gitgraph Forest Theme Tiddler" _blank
+    click B "#Automata 3" "Automata 3" _blank
+    click C href "#sequenceDiagram 1" "sequenceDiagram 1 Tiddler" _blank
+    click D href "#Larger flowchart with some styling" "Larger flowchart with some styling Tiddler" _blank
